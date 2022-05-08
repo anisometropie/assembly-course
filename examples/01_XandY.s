@@ -6,19 +6,15 @@
   ldx #5
   ldy #5
 
-  ; Increment the value of X twice
+  ; Increment the value of X
   inx
-  inx
-
-  ; Decrement the value of X once
+  ; Decrement the value of X
   dex
 
-  ; Decrement the value Y twice
-  dey
-  dey
-
-  ; Increment the value of Y once
+  ; Increment the value of Y
   iny
+  ; Decrement the value Y
+  dey
 
   ; Since we ran 2 increments and 1 decrement on X, it should now equal 6
   ; Since we ran 2 decrements on Y and 1 increment, it should now equal 4

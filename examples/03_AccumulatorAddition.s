@@ -3,9 +3,9 @@
 
 .proc Main
   ; Initialize some RAM
-  ldx #$B2
+  ldx #$FF
   stx $00
-  ldx #$F5
+  ldx #$FF
   stx $01
 
   ; Add $00 and $01
